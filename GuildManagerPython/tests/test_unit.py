@@ -33,3 +33,6 @@ class TestUnit(unittest.TestCase):
     def test_unit_representation_bad(self):
         string_rep = "Bob Dole - Wizard Lvl 2"
         self.assertNotEqual(string_rep, str(self.unit))
+
+    # TODO: Add in docstrings for all unittests
+    # TODO: Add in tests for attack/magic-attack

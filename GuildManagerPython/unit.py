@@ -1,4 +1,4 @@
-from job import Job, Warrior
+from job import Job
 
 
 class Unit:
@@ -9,3 +9,9 @@ class Unit:
 
     def __str__(self):
         return f"{self.name} - {self.job}"
+
+    def attack(self):
+        return self.job.base_atk
+
+    def magic_attack(self):
+        return self.job.base_mg_atk
